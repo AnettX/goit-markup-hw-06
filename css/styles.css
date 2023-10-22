@@ -167,6 +167,8 @@ z-index: 1;
   overflow: auto;
   opacity: 0;
   visibility: hidden;
+   transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    visibility 250ms cubic-bezier(0.4, 0, 0.2, 1);
   pointer-events: none;
 }
 
@@ -224,10 +226,8 @@ border: none;
   text-transform: capitalize;
 }
 
-.line-link {
-}
-
-.active {
+.active-studio {
+color: #404BBF;
 }
 
 .mob-contact-list {
@@ -240,6 +240,15 @@ border: none;
 }
 
 .mob-contact-link {
+  color: #434455;
+font-size: 20px;
+font-weight: 500;
+line-height: 1.2;
+letter-spacing: 0.02em;
+}
+
+.active-tel {
+  color: #4D5AE5;
 }
 
 .mob-soc-link {
@@ -780,8 +789,8 @@ margin: 0 auto;
 }
 
 .modal {
-  width: 408px;
-  min-height: 584px;
+  width: 288px;
+  min-height: 623px;
   background-color: #fcfcfc;
   border-radius: 4px;
   box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 1px 3px rgba(0, 0, 0, 0.12),
@@ -955,6 +964,13 @@ margin: 0 auto;
   font-weight: 400;
   line-height: 1.17;
   letter-spacing: 0.04em;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.check-text-wrap {
+  display: inline-block;
 }
 
 .check-text-link {
@@ -1108,6 +1124,11 @@ max-width: 264px;}
 
 .footer-form-input {
   width:264px;
+}
+
+.modal {
+  width: 408px;
+  min-height: 584px;
 }
 
 }
