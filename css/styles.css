@@ -74,7 +74,6 @@ img {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #4d5ae5;
-  margin-right: 76px;
 }
 
 .header-navigation {
@@ -399,8 +398,8 @@ letter-spacing: 0.02em;
   font-weight: 700;
   line-height: 1.11;
   letter-spacing: 0.02em;
-  margin-top: 8px;
   text-align: center;
+  margin-bottom: 8px;
 }
 
 /* =================== Section 3 - Our team ====================== */
@@ -1093,10 +1092,11 @@ margin: 0 auto;
     bottom: -32px;
   }
 
+  .header-menu {
+  margin: 0 auto;}
   
 .footer-container {
   gap: 72px 24px;
-  padding-left: 92px;
 }
 
 .footer-socmedia-container {
@@ -1162,6 +1162,13 @@ max-width: 264px;}
 .line-link::after {
   bottom: -28px;
 }
+
+.header-menu {
+margin: 0;
+}
+
+.header-logo {
+padding-right: 76px;}
 
   .benefits {
     padding: 120px 0;
